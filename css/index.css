@@ -1,0 +1,45 @@
+html{
+  overflow: hidden;
+}
+
+body{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#birdSVG{
+	width: 100%;
+	height: 95%;
+	opacity: 0;
+}
+
+#splash1-1, #splash1-2, #splash1-3, 
+#splash2-1, #splash2-2, #splash2-3, #splash2-4, #splash2-6,
+#splash3-1, #splash3-2, #splash3-3, #splash3-4,
+#splash4-1, #splash4-2, #splash4-3,
+#splash5-1, #splash5-2, #splash5-3
+{
+	mix-blend-mode: multiply;
+}
+
+.center{
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'FuturaPT-Bold';
+  src: url('../fonts/FuturaPTBold.eot') format('eot'), 
+  url('../fonts/FuturaPTBold.ttf') format('ttf'),
+  url('../fonts/FuturaPTBold.woff') format('woff'),
+  url('../fonts/FuturaPTBold.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'FuturaPT-Medium';
+  src: url('../fonts/FuturaPTMedium.eot') format('eot'), 
+  url('../fonts/FuturaPTMedium.ttf') format('ttf'),
+  url('../fonts/FuturaPTMedium.woff') format('woff'),
+  url('../fonts/FuturaPTMedium.woff2') format('woff2')
+}
